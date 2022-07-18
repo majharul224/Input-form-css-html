@@ -1,0 +1,23 @@
+
+.contaner{
+    display: flex;
+    justify-content: center;
+}
+.form-countaner{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.form-countaner input{
+font-size: 1em;
+font-weight: 400;
+margin-top: 20px;
+padding-left: 20PX;
+}
+.form-countaner input[type="submit"]{
+background-color: blue;
+border-style: none;
+border-radius: 5PX;
+color: aliceblue;
+font-weight: 600;
+}
